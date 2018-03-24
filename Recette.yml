@@ -1,0 +1,21 @@
+language: python:3.6
+envs:
+ - PLATFORM: development
+packages:
+ - python
+ - python-flask
+commands:
+ - python server.py
+ports:
+ tcp:
+  - 8000 : http
+healthchecks:
+ - protocol : http
+   path : /
+   port : 8000
+   grace_period_seconds : 3
+   interval_seconds : 10
+   timeout_seconds : 10
+   max_consecutive_failures : 5
+ vpcs:
+ - default: master
