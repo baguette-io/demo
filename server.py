@@ -5,7 +5,6 @@ VERSION = '1.0'
 @app.route('/')
 def index():
     """
-    index
     """
     return 'version {}'.format(VERSION)
 
