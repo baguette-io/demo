@@ -2,7 +2,7 @@ language: python:3.6
 envs:
  - PLATFORM: development
 packages:
- - python
+ - pip install Flask
 commands:
  - python server.py
 ports:
