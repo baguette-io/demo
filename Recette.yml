@@ -3,7 +3,6 @@ envs:
  - PLATFORM: development
 packages:
  - python
- - python-flask
 commands:
  - python server.py
 ports:
