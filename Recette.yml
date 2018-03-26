@@ -1,8 +1,6 @@
 language: python:3.6
 envs:
  - PLATFORM: development
-packages:
- - pip
 commands:
  - pip install Flask
  - python server.py
