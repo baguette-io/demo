@@ -15,5 +15,5 @@ healthchecks:
    interval_seconds : 10
    timeout_seconds : 10
    max_consecutive_failures : 5
-namespaces:
+namespaceaas:
  - default: master
