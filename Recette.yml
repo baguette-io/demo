@@ -1,8 +1,8 @@
-language: python:3.6
+language: python:3.5
 envs:
  - PLATFORM: development
 packages:
-  - python-flask
+  - python3-flask
 commands:
  - python server.py
 ports:
