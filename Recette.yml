@@ -2,7 +2,7 @@ language: python:3
 envs:
  - PLATFORM: development
 commands:
- - pip install Flask
+ - pip install --user Flask
  - python server.py
 ports:
  tcp:
