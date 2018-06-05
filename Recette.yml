@@ -1,9 +1,8 @@
-language: python:3.5
+language: python:3
 envs:
  - PLATFORM: development
-packages:
-  - python3-flask
 commands:
+ - pip install Flask
  - python server.py
 ports:
  tcp:
