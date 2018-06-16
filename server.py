@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-VERSION = '5.45'
+VERSION = '5.46'
 
 @app.route('/')
 def index():
